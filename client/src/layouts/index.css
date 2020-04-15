@@ -1,0 +1,86 @@
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+.header{
+  padding-top: 30px;
+  max-width: 950px;
+  height:90px;
+  box-sizing: border-box;
+  margin: 0 auto ;
+}
+.left{
+  height: auto;
+  width: 460px;
+  display: inline-block;
+}
+.title{
+width: 160px;
+height: 34px;
+overflow: hidden;
+
+display: inline-block;
+vertical-align: middle;
+}
+.logo{
+  height: 24px;
+  line-height: 10em;
+}
+.search{
+  width: 270px;
+  height: 30px;
+  position: relative;
+  border: 1px solid #ccc;
+  display: inline-block;
+  overflow: hidden;
+ 
+}
+.search .text{
+  width: 230px;
+  height: 20px;
+  color:#ccc;
+  padding: 5px;
+  font-size: 13px;
+  outline: none;
+  border: none;
+}
+.search .text::placeholder{
+  color:#ccc;
+}
+.btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background: url(../assets/douban/bn_srh_1.png) no-repeat 50% 50%;
+  background-position:8px;
+}
+
+
+.right{
+
+  height: 20px;
+  margin-top: 6px;
+  float: right;
+  
+  background: url(../assets/douban/anony_nav_logo.png) no-repeat 100% 100%;
+ 
+}
+.right li{
+  display: inline-block;
+  margin-right: 14px;
+}
+.right li a{
+  width: 40px ;
+  height: 20px;
+  display: inline-block;
+  background: transparent;
+
+}
